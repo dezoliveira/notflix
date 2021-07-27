@@ -7,6 +7,11 @@
   section.container{
     margin: 15px;
   }
+
+  section.fundo{
+    width: 50vh;
+    height: 50vh;
+  }
   
   .botao{
     margin-top: 5px;
