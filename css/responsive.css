@@ -1,7 +1,11 @@
 @media screen and (max-width:768px) {
-  header .container{
+  section header .container{
     display: flex;
     flex-direction: column;
+  }
+
+  filme-principal .container{
+    padding: 0;
   }
 
   header.titulos{
@@ -10,9 +14,8 @@
 
   .botao{
     margin-top: 5px;
-    width: 300px;
+    width: 320px;
   }
-
 }
 
 @media screen and (min-width: 1000px) {

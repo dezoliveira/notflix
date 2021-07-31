@@ -43,13 +43,17 @@ header nav a:hover {
 /*Filme principal*/
 .filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../images/capa_invocacao-do-mal.jpg);
-  background-size: cover;
-  height: 400px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+#destaque{
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../images/capa_invocacao-do-mal.jpg);
+  background-size: cover;
+  width: 100%;
 }
 
 .filme-principal .descricao{
@@ -86,7 +90,7 @@ header nav a:hover {
 }
 
 .container{
-  margin: 20px;
+  padding: 20px;
 }
 
 .filme-principal .container{
